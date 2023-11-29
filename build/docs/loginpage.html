@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="../docs/input.css">>
+    
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <title>Final project Login</title>
+  </head>
+  <body>
+    <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+      <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+        <img class="mx-auto h-auto w-100" src="/Images/BOC.png" alt="Bank of canada logo">
+        <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Sign in to your account</h2>
+      </div>
+
+  
+    <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 rtl:space-x-reverse">
+        <a href="#" class="w-full sm:w-auto bg-white hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-white dark:hover:bg-gray-200 dark:focus:ring-gray-200">
+            <img class="me-3 w-7 h-7" src="/Images/icons8-google.svg"/>
+            <div class="text-left rtl:text-right">
+                <div class="-mt-1 font-sans text-sm font-semibold text-black">Google</div>
+            </div>
+        </a>
+        <a href="#" class="w-full sm:w-auto bg-white hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-white dark:hover:bg-gray-200 dark:focus:ring-gray-200">
+          <svg class="me-3 w-7 h-7" xmlns="im" width="24" height="24" viewBox="0 0 24 24" fill="#000"><path d="M24 12.07C24 5.41 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.04V9.41c0-3.02 1.8-4.7 4.54-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.5c-1.5 0-1.96.93-1.96 1.89v2.26h3.32l-.53 3.5h-2.8V24C19.62 23.1 24 18.1 24 12.07"/></svg>
+          <div class="text-left rtl:text-right">
+                <div class="-mt-1 font-sans text-sm font-semibold text-black">Facebook</div>
+            </div>
+        </a>
+    </div>
+
+    <div class="inline-flex items-center justify-center w-full">
+      <hr class="w-64 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+      <span class="absolute px-3 font-medium text-black -translate-x-1/2 bg-white left-1/2">or</span>
+  </div>
+
+      <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+        <form class="space-y-6" action="#" method="POST">
+          <div>
+            <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
+            <div class="mt-2">
+              <input id="email" name="email" type="email" autocomplete="email" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+    
+          <div>
+            <div class="flex items-center justify-between">
+              <label for="password" class="block text-sm font-medium leading-6 text-gray-900">Password</label>
+              <div class="text-sm">
+                <a href="#" class="font-semibold text-indigo-600 hover:text-indigo-500">Forgot password?</a>
+              </div>
+            </div>
+            <div class="mt-2">
+              <input id="password" name="password" type="password" autocomplete="current-password" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+    
+          <div>
+            <button type="submit" class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign in</button>
+          </div>
+        </form>
+    
+        <p class="mt-10 text-center text-sm text-gray-500">
+          Don't have an account?
+          <a href="#" class="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Register here  <i class="fa-solid fa-arrow-right"></i></a>
+        </p>
+      </div>
+    </div>
+
+  </body>
+  <footer
+  class="bg-neutral-200 text-center lg:text-left">
+  <div class="p-4 text-center text-neutral-700">
+    © 2023 Copyright:
+    <a
+      class="text-neutral-800"
+      >Arshdeep Singh, Jessica Cao, Sean Brasil</a
+    >
+  </div>
+</footer>
+</html>
